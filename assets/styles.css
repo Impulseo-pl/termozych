@@ -1847,3 +1847,9 @@ footer{view-transition-name:mt-foot}
 
 /* === szary tekst dociągnięty do czytelności (WCAG 4.5 na wszystkich tłach) === */
 :root{--muted:#726362;}
+
+/* wzór strony: duże kapitaliki w hero, dwie karty "co robimy" */
+.hf-title{text-transform:uppercase;letter-spacing:.02em}
+.gateways.gateways-duo{grid-template-columns:repeat(2,1fr)}
+.gateways-duo .gateway{aspect-ratio:4/3}
+@media(max-width:760px){.gateways.gateways-duo{grid-template-columns:1fr}}
