@@ -21,143 +21,111 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=c5042e9d">
+<link rel="stylesheet" href="assets/styles.css?v=20261110">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/kl.css?v=20261110">
 <meta name="nb-deploy" content="552ba98fc819">
 </head>
-<body>
+<body class="kl">
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.png" alt="TermoZych" width="648" height="203" decoding="async"></a>
-    <nav class="nav-links">
-      <a href="oferta.html">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48604698329" class="btn btn-accent">Zadzwoń +48 604 698 329</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+<header class="kl-head">
+  <a class="kl-logo" href="index.html"><img src="img/logo.png" alt="TermoZych" width="648" height="203"></a>
+  <div class="kl-right">
+    <a class="kl-tel" href="tel:+48604698329"><span>+48 604 698 329</span><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a>
+    <button class="kl-btn kl-toggle" type="button" aria-expanded="false" aria-label="Menu"><b>Menu</b><i></i></button>
   </div>
 </header>
+<div class="kl-menu" id="kl-menu">
+  <div class="kl-menu-grid">
+    <nav class="m-main"><a href="oferta.html">Oferta</a><a href="realizacje.html">Realizacje</a><a href="o-nas.html">O nas</a><a href="kontakt.html">Kontakt</a></nav>
+    <nav class="m-sec"><h4>Usługi</h4><a href="oferta.html">Budowa domów</a><a href="oferta.html">Stany surowe</a><a href="oferta.html">Remonty i wykończenia</a><a href="oferta.html">Elewacje i docieplenia</a></nav>
+    <nav class="m-sec"><h4>Kontakt</h4><a href="tel:+48604698329">+48 604 698 329</a><a href="kontakt.html">Kazimierza Wielka i okolice</a><a href="https://www.facebook.com/profile.php?id=61560573417914" target="_blank" rel="noopener">Facebook</a></nav>
+  </div>
+</div>
 
 <main>
-<section class="hero-fach">
-  <img class="hf-photo" src="img/hero.jpg" fetchpriority="high" data-rotate="img/g1.jpg|img/g2.jpg" alt="TermoZych" width="1600" height="1068">
-  <div class="hf-panel">
-    <div class="hf-inner">
-      <span class="hf-kicker">Kazimierza Wielka i okolice</span>
-      <h1 class="hf-title">Budowa domów i remonty. Kazimierza Wielka i okolice. <em></em></h1>
-      <p class="hf-lead">Nie zbierasz kilku ekip do jednej budowy - całość prowadzimy i za całość odpowiadamy. Wiesz, co i kiedy dzieje się na Twojej budowie.</p>
-      <a class="hf-phone" href="tel:+48604698329"><span class="hf-phone-lab">Zadzwoń teraz</span><span class="hf-phone-num"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> +48 604 698 329</span></a>
-      <div class="hf-actions">
-        <a href="kontakt.html" class="btn btn-accent">Poproś o wycenę <span class="arr">→</span></a>
-      </div>
+<section class="kb">
+  <div class="kl-wrap kb-in">
+    <div class="kb-txt">
+      <span class="kb-kick">Kazimierza Wielka i okolice</span>
+      <h1>Budowa i remonty</h1>
+      <p>Budowa domu albo remont wymaga czegoś więcej niż dobrych materiałów. Potrzeba wiedzy, rzetelności i dbałości o szczegóły. Całość prowadzimy i za całość odpowiadamy, a Ty wiesz, co dzieje się na budowie.</p>
+      <a href="kontakt.html" class="kl-btn">Poproś o wycenę</a>
     </div>
+    <div class="kb-img"><img src="img/hero.jpg" fetchpriority="high" alt="Dom zbudowany przez TermoZych" width="1600" height="1068"></div>
   </div>
 </section>
-<section class="gateways-band">
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Co robimy</span>
+<section class="ks ks--black" id="co-robimy">
+  <div class="kl-wrap">
+    <div class="k-intro">
+      <span class="k-label">Co robimy</span>
       <h2>Usługi budowlane i remontowe pod jednym dachem</h2>
-      <p>Budowa domów, stany surowe, remonty i wykończenia w Kazimierzy Wielkiej i okolicy. Jedna ekipa, jedna odpowiedzialność za całość.</p>
+      <p>TermoZych to usługi budowlane od A do Z: budowa domów, stany surowe, remonty, wykończenia wnętrz, elewacje i docieplenia. Jedna ekipa, jeden kosztorys i termin na piśmie przed startem, a wszystko w Kazimierzy Wielkiej i okolicy.</p>
     </div>
-    <div class="gateways gateways-duo">
-      <a href="oferta.html" class="gateway reveal"><img src="img/g3.jpg" alt="Budowa domów" loading="lazy" width="1600" height="1068" decoding="async"><span class="g-ttl">Budowa domów<small>Od fundamentów po klucz.</small></span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g5.jpg" alt="Remonty i modernizacje" loading="lazy" width="1600" height="1066" decoding="async"><span class="g-ttl">Remonty i wykończenia<small>Solidnie, bez bałaganu.</small></span></a>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Realizacje</span>
-      <h2>Nasza praca</h2>
-    </div>
-    <div class="gallery">
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="Budowa domu" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g7.jpg" alt="Stan surowy" loading="lazy" width="1566" height="1036" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g8.jpg" alt="Wykończenie wnętrz" loading="lazy" width="1600" height="1066" decoding="async"></div>
-    </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="realizacje.html" class="btn btn-accent">Zobacz więcej <span class="arr">→</span></a></div>
-  </div>
-</section>
-<section class="fach-uslugi">
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Usługi</span>
-      <h2>Prowadzimy Cię od początku do końca</h2>
-      <p>Kosztorys i termin na piśmie przed startem, a potem budowa etapami z odbiorem punkt po punkcie.</p>
-    </div>
-    <div class="svc-grid">
-      <div class="svc reveal"><div class="ic">01</div><h3>Budowa domów</h3><p>Prowadzimy budowę od wykopu po stan deweloperski albo pod klucz, zgodnie z projektem i harmonogramem.</p></div>
-      <div class="svc reveal"><div class="ic">02</div><h3>Stany surowe</h3><p>Fundamenty, ściany nośne, stropy, wieniec i więźba. Odbiór kierownika budowy przed zalaniem betonu.</p></div>
-      <div class="svc reveal"><div class="ic">03</div><h3>Remonty i wykończenia</h3><p>Podłogi, łazienki, tynki, elewacje i docieplenia. Praca czysta, w ustalonym terminie.</p></div>
-    </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="kontakt.html" class="btn btn-ghost">Porozmawiajmy <span class="arr">→</span></a></div>
-  </div>
-</section>
-<section class="stopklatka" aria-hidden="true">
-  <div class="stk-bg" style="background-image:url(img/g11.jpg)"></div>
-</section>
-<section class="opinie op-fallback">
-  <div class="wrap">
-    <div class="head center reveal">
-      <span class="eyebrow">Opinie</span>
-      <h2>Co mówią klienci</h2>
-      <p>Wpisz TermoZych w Google i przeczytaj, co piszą ludzie, u których budowaliśmy.</p>
+    <div class="kduo">
+      <article><a class="pic" href="oferta.html"><img src="img/g1.jpg" alt="Budowa domów" loading="lazy" width="1600" height="1066"></a><a class="kl-btn" href="oferta.html">Budowa domów</a><h3>Od fundamentów po klucz.</h3></article>
+      <article><a class="pic" href="oferta.html"><img src="img/g6.jpg" alt="Remonty i wykończenia" loading="lazy" width="1600" height="1068"></a><a class="kl-btn" href="oferta.html">Remonty i wykończenia</a><h3>Solidnie, bez bałaganu.</h3></article>
     </div>
   </div>
 </section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Zadzwońmy i porozmawiajmy o Twojej budowie</h2>
-      <p>Jeden telefon i przyjedziemy zobaczyć zakres. Wycena nic nie kosztuje.</p>
+<section class="ks ks--black">
+  <div class="kl-wrap">
+    <h2 class="k-huge">Zakres prac</h2>
+    <div class="kwork">
+      <a href="realizacje.html"><span class="pic"><img src="img/g2.jpg" alt="Domy jednorodzinne" loading="lazy" width="1600" height="1068"></span><h3>Domy jednorodzinne</h3></a>
+      <a href="realizacje.html"><span class="pic"><img src="img/g9.jpg" alt="Stany surowe i elewacje" loading="lazy" width="1880" height="1253"></span><h3>Stany surowe i elewacje</h3></a>
+      <a href="realizacje.html"><span class="pic"><img src="img/g4.jpg" alt="Łazienki i wykończenia" loading="lazy" width="1600" height="1068"></span><h3>Łazienki i wykończenia</h3></a>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zadzwoń: +48 604 698 329 <span class="arr">→</span></a>
-      <a href="tel:+48604698329" class="btn btn-ghost btn-ghost-cta">+48 604 698 329</a>
+    <div class="kwork-cta"><a href="realizacje.html" class="kl-btn kl-btn--fill">Zobacz realizacje</a></div>
+  </div>
+</section>
+<section class="ks ks--beige">
+  <div class="kl-wrap">
+    <div class="k-intro">
+      <span class="k-label">Usługi</span>
+      <h2>Prowadzimy Cię od początku budowy do samego końca.</h2>
     </div>
+    <div class="ksvc">
+      <div><img src="img/g12.jpg" alt="Budowa domów" loading="lazy" width="1600" height="1065"><a class="kl-btn" href="oferta.html">Budowa domów</a><p>Prowadzimy budowę od wykopu po stan deweloperski albo pod klucz, zgodnie z projektem i harmonogramem.</p></div>
+      <div><img src="img/g5.jpg" alt="Stany surowe" loading="lazy" width="1600" height="1066"><a class="kl-btn" href="oferta.html">Stany surowe</a><p>Fundamenty, ściany nośne, stropy, wieniec i więźba. Odbiór kierownika budowy przed zalaniem betonu.</p></div>
+      <div><img src="img/g10.jpg" alt="Remonty i wykończenia" loading="lazy" width="1600" height="1068"><a class="kl-btn" href="oferta.html">Remonty i wykończenia</a><p>Podłogi, łazienki, tynki, elewacje i docieplenia. Praca czysta, w ustalonym terminie.</p></div>
+    </div>
+    <a href="kontakt.html" class="kl-btn" style="border-color:#24262b;color:#24262b">Porozmawiajmy</a>
+  </div>
+</section>
+<section class="stopklatka kfull" aria-hidden="true"><div class="stk-bg" style="background-image:url(img/g7.jpg)"></div></section>
+<section class="ks ks--black">
+  <div class="kl-wrap">
+    <div class="kq"><div><blockquote>Kosztorys i termin dostajesz na piśmie, zanim ruszy pierwsza łopata.</blockquote><cite>Krok pierwszy: wycena</cite></div><div class="kq-img"><img src="img/g3.jpg" alt="Wnętrze po wykończeniu" loading="lazy" width="1600" height="1068"></div></div>
+    <div class="kq"><div><blockquote>Budujemy etapami i każdy etap odbieramy punkt po punkcie.</blockquote><cite>Krok drugi: budowa</cite></div><div class="kq-img"><img src="img/g15.jpg" alt="Łazienka po remoncie" loading="lazy" width="1600" height="1082"></div></div>
+    <div class="kq"><div><blockquote>Dom oddajemy czysty i gotowy do wprowadzenia.</blockquote><cite>Krok trzeci: odbiór</cite></div><div class="kq-img"><img src="img/g16.jpg" alt="Wykończone wnętrze" loading="lazy" width="1600" height="1200"></div></div>
+    <h2 class="k-huge" style="margin:0">Jak działamy</h2>
+  </div>
+</section>
+<section class="ks ks--black kcta">
+  <div class="kl-wrap">
+    <span class="k-label">Zadzwońmy i porozmawiajmy o Twojej budowie</span>
+    <h2><a href="tel:+48604698329">+48 604 698 329</a></h2>
+    <a href="tel:+48604698329" class="kl-btn kl-btn--fill">Zadzwoń teraz</a>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">TermoZych</div>
-        <p>Nie zbierasz kilku ekip do jednej budowy - całość prowadzimy i za całość odpowiadamy. Wiesz, co i kiedy dzieje się na Twojej budowie.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48604698329">+48 604 698 329</a>
-        <p>Kazimierza Wielka</p>
-        <a href="https://www.google.com/maps/place/TermoZych/@50.1890896,20.5115099,3062m/data=!3m1!1e3!4m6!3m5!1s0x4717cdb3e1bffe65:0x24040f23c51eea07!8m2!3d50.1900952!4d20.5107525!16s%2Fg%2F11z6blmck5" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.facebook.com/profile.php?id=61560573417914" target="_blank" rel="noopener" aria-label="Facebook - TermoZych"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
-        <a class="soc" href="https://www.google.com/maps/place/TermoZych/@50.1890896,20.5115099,3062m/data=!3m1!1e3!4m6!3m5!1s0x4717cdb3e1bffe65:0x24040f23c51eea07!8m2!3d50.1900952!4d20.5107525!16s%2Fg%2F11z6blmck5" target="_blank" rel="noopener" aria-label="Google - TermoZych"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
-      </div>
+<footer class="kf">
+  <div class="kl-wrap">
+    <div class="kf-grid">
+      <div><img src="img/logo.png" alt="TermoZych" width="648" height="203"><p>Budowa domów, stany surowe, remonty i wykończenia. Całość prowadzimy i za całość odpowiadamy.</p></div>
+      <div><h4>Nawigacja</h4><a href="oferta.html">Oferta</a><a href="realizacje.html">Realizacje</a><a href="o-nas.html">O nas</a><a href="kontakt.html">Kontakt</a></div>
+      <div><h4>Kontakt</h4><a href="tel:+48604698329">+48 604 698 329</a><p>Kazimierza Wielka i okolice</p><a href="https://www.google.com/maps/place/TermoZych/@50.1890896,20.5115099,3062m/data=!3m1!1e3!4m6!3m5!1s0x4717cdb3e1bffe65:0x24040f23c51eea07!8m2!3d50.1900952!4d20.5107525!16s%2Fg%2F11z6blmck5" target="_blank" rel="noopener">Jak dojechać →</a></div>
+      <div><h4>Obserwuj</h4><a href="https://www.facebook.com/profile.php?id=61560573417914" target="_blank" rel="noopener">Facebook</a><a href="https://www.google.com/maps/place/TermoZych/@50.1890896,20.5115099,3062m/data=!3m1!1e3!4m6!3m5!1s0x4717cdb3e1bffe65:0x24040f23c51eea07!8m2!3d50.1900952!4d20.5107525!16s%2Fg%2F11z6blmck5" target="_blank" rel="noopener">Google</a></div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 TermoZych</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
-    </div>
+    <div class="kf-bot"><span>© 2026 TermoZych</span><span>Projekt strony: <a href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span></div>
   </div>
 </footer>
 <div class="sticky-call"><a class="sc-call" href="tel:+48604698329"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zadzwoń: +48 604 698 329</a></div>
 <div class="demo-wazne" data-do="2026-11-16" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261110"></script>
+<script src="assets/kl.js"></script>
 </body>
 </html>
